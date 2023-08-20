@@ -31,11 +31,11 @@
     </nav>
     <main class="main">
         <img class="logo" src="img/logo.png" alt="">
-        <article class="containter">
+        <article class="container">
             <span>#01</span>
             <h2>Track Day</h2>
         </article>
-        <article class="containter">
+        <article class="container">
             <div class="clock">00:00</div>
             <div class="clock-info">
                 <div class="info">
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </article>
-        <article class="containter">
+        <article class="container">
             <header class="header">
                 <h2>Na torze</h2>
                 <img src="img/arrow.svg" alt="arrow">
@@ -58,21 +58,21 @@
                 <p>Uczestnicy: 4</p>
             </div>
             <div class="table">
-                <table>
+                <table class="table">
                     <tr>
                         <th>Imię</th>
                         <th>Nazwisko</th>
                         <th>Pojazd</th>
                     </tr>
                     <tr>
-                        <td>Abcdabcdabcd</td>
-                        <td>Abcdabcdabcd</td>
-                        <td>Abcdabcdabcd</td>
+                        <td>Abcdab</td>
+                        <td>Abcdabcd</td>
+                        <td>Abcdabcd</td>
                     </tr>
                     <tr>
-                        <td>abcabcabca</td>
-                        <td>abcabcabca</td>
-                        <td>abcabcabca</td>
+                        <td>abcabcab</td>
+                        <td>abcabcab</td>
+                        <td>abcabcab</td>
                     </tr>
                     <tr>
                         <td>imie</td>
@@ -87,7 +87,7 @@
                 </table>
             </div>
         </article>
-        <article class="containter">
+        <article class="container">
             <header class="header">
                 <h2>Oczekuje</h2>
                 <img src="img/arrow.svg" alt="arrow">
@@ -97,16 +97,16 @@
                 <p>Uczestnicy: 4</p>
             </div>
             <div class="table">
-                <table>
+                <table class="table">
                     <tr>
                         <th>Imię</th>
                         <th>Nazwisko</th>
                         <th>Pojazd</th>
                     </tr>
                     <tr>
-                        <td>Abcdabcdabcd</td>
-                        <td>Abcdabcdabcd</td>
-                        <td>Abcdabcdabcd</td>
+                        <td>Abcdabcd</td>
+                        <td>Abcdabcd</td>
+                        <td>Abcdabcd</td>
                     </tr>
                     <tr>
                         <td>abcabcabca</td>
@@ -126,7 +126,7 @@
                 </table>
             </div>
         </article>
-        <article class="containter">
+        <article class="container">
             <header class="header">
                 <h2>Uczestnicy</h2>
                 <img src="img/arrow.svg" alt="arrow">
@@ -135,93 +135,97 @@
                 <p>Grupy: 3</p>
                 <p>Uczestnicy: 12</p>
             </div>
-            <div class="table">
-                <table>
+            <div class="table-holder">
+                <table class="table">
                     <tr>
                         <th>Imię</th>
                         <th>Nazwisko</th>
                         <th>Pojazd</th>
+                        <th>Gr.</th>
                     </tr>
                     <tr>
-                        <td>Abcdabcdabcd</td>
-                        <td>Abcdabcdabcd</td>
-                        <td>Abcdabcdabcd</td>
+                        <td>Abcdabcda</td>
+                        <td>Abcdabcda</td>
+                        <td>Abcdabcda</td>
+                        <td>1</td>
                     </tr>
                     <tr>
                         <td>abcabcabca</td>
                         <td>abcabcabca</td>
                         <td>abcabcabca</td>
+                        <td>1</td>
                     </tr>
                     <tr>
                         <td>imie</td>
                         <td>nazwisko</td>
                         <td>samochod</td>
+                        <td>1</td>
                     </tr>
                     <tr>
                         <td>Martyna</td>
                         <td>Jastrzębska</td>
                         <td>Honda Civic</td>
+                        <td>1</td>
                     </tr>
                     <tr>
-                        <td>Abcdabcdabcd</td>
-                        <td>Abcdabcdabcd</td>
-                        <td>Abcdabcdabcd</td>
+                        <td>Abcdabcda</td>
+                        <td>Abcdabcd</td>
+                        <td>Abcdabcdcd</td>
+                        <td>2</td>
                     </tr>
                     <tr>
+                        <td>abcabcab</td>
                         <td>abcabcabca</td>
                         <td>abcabcabca</td>
-                        <td>abcabcabca</td>
+                        <td>2</td>
                     </tr>
                     <tr>
                         <td>imie</td>
                         <td>nazwisko</td>
                         <td>samochod</td>
+                        <td>2</td>
                     </tr>
                     <tr>
                         <td>Martyna</td>
                         <td>Jastrzębska</td>
                         <td>Honda Civic</td>
+                        <td>2</td>
                     </tr>
                     <tr>
-                        <td>Abcdabcdabcd</td>
-                        <td>Abcdabcdabcd</td>
-                        <td>Abcdabcdabcd</td>
+                        <td>Abcdabc</td>
+                        <td>Abcdabcda</td>
+                        <td>Abcdabcd</td>
+                        <td>3</td>
                     </tr>
                     <tr>
                         <td>abcabcabca</td>
                         <td>abcabcabca</td>
                         <td>abcabcabca</td>
+                        <td>4</td>
                     </tr>
                 </table>
                 <button>Pokaż więcej (2)</button>
             </div>
         </article>
-        <article class="containter">
+        <article class="container">
             <span>#02</span>
             <h2>Racing Team</h2>
         </article>
-        <article class="containter instagram">
-            <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CbxAn9wK_Mt/?utm_source=ig_embed&amp;utm_campaign=loading" 
-            data-instgrm-version="14">
-           </blockquote> 
-        </article>
-        <article class="containter">
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Futhracingteam%2Fposts%2Fpfbid022WMXr8vvSuyh42Dg3o6MfFx9ZmUQQJRMihZ5ZnD4iRVZEY9RjCXNaJ8N8kRRs5s2l&show_text=true&width=500" width="500" height="761" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-        </article>
-        <article class="containter">
+       
+       <!-- <article class="container">
             <img src="img/sponsors/img1.png" alt="">
             <img src="img/sponsors/img2.png" alt="">
             <img src="img/sponsors/img3.png" alt="">
-            <img src="img/sponsors/img4.png" alt="">
-        </article>
-        <article class="containter">
+            <img src="img/sponsors/img4.png" alt=""> 
+        </article> -->
+        <article class="container">
             <span>#03</span>
             <h2>Kontakt</h2>
         </article>
-        <article class="containter">
+        <article class="container">
             <form action="">
                 <input type="text" name="" id="" placeholder="Imię">
-                <input type="text" name="" id="" placeholder="Bazwisko">
+                <input type="text" name="" id="" placeholder="Nazwisko">
                 <input type="text" name="" id="" placeholder="Email">
                 <textarea name="" id="" cols="30" rows="10" placeholder="Wiadomość"></textarea>
             </form>
