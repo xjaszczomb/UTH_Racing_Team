@@ -15,8 +15,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <ul class="nav-list">
+    <nav class="navbar">
+        <img class="logo" src="img/logo.png" alt="">
+        <button class="nav-toggler" id="nav-toggler" aria-controls="nav-content" aria-expanded="false"></button>
+
+        <ul class="nav-list" id="nav-content" data-visible="false">
             <li class="nav-item"><a class="button btn-blue" href="#">Track Day</a></li>
             <ul class="nav-sub-list">
                 <li class="nav-item"><button class="button btn-dark-mode"></button></li>
