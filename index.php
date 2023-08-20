@@ -18,7 +18,7 @@
     <nav>
         <ul class="nav-list">
             <li class="nav-item"><a class="button btn-blue" href="#">Track Day</a></li>
-            <ul class="nav-item nav-sub-list">
+            <ul class="nav-sub-list">
                 <li class="nav-item"><button class="button btn-dark-mode"></button></li>
                 <li class="nav-item"><a href="#" class="button">Zaloguj</a></li>
             </ul>
